@@ -1,3 +1,12 @@
+# General
+
+This is an almost unchanged fork of the original [couchdb-dbperuser-provisioning](https://github.com/pegli/couchdb-dbperuser-provisioning) by pegli.
+The only thing that is changed is, that the databasename for the new user will be set to "userdb-" and the username hexencoded.
+So for example the user bob would get the database "userdb-0062006f0062". 
+This naming scheme itself is similiar to the naming scheme of [couchperuser](https://github.com/etrepum/couchperuser) by etrepum.
+
+The following is pegli's description of the script.
+
 # User Account and Database Provisioning for CouchDB
 
 Many developers choose to store user-specific data in [CouchDB](http://couchdb.apache.org/)

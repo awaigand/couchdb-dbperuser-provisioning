@@ -1,9 +1,9 @@
 {
-  "name": "couchdb-provision",
+  "name": "couchdb-hexprovision",
   "version": "1.0.0",
   "preferGlobal": true,
   "bin": {
-    "couchdb-provision": "lib/provision.js"
+    "couchdb-hexprovision": "lib/provision.js"
   },
   "dependencies": {
     "bluebird": "",
