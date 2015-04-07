@@ -60,7 +60,7 @@ contents:
     port = 8100
     
     [os_daemons]
-    myapp_provision_daemon = /usr/bin/node /usr/bin/couchdb-provision myapp_provisioning
+    myapp_provision_daemon = /usr/bin/node /usr/bin/couchdb-hexprovision myapp_provisioning
     
     [httpd_global_handlers]
     _myapp_provision = {couch_httpd_proxy, handle_proxy_req, <<"http://127.0.0.1:8100">>}
@@ -85,6 +85,7 @@ stored in the user document under this key.
 
 `add_namespace_to_dbname` (boolean) - if true, generated database names will include the
 namespace string.
+    
   
 ### References
 
