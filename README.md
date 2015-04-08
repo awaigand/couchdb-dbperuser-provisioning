@@ -85,7 +85,7 @@ stored in the user document under this key.
 
 `add_namespace_to_dbname` (boolean) - if true, generated database names will include the
 namespace string.
-    
+		
   
 ### References
 
