@@ -5,6 +5,8 @@ The only thing that is changed is, that the databasename for the new user will b
 So for example the user bob would get the database "userdb-0062006f0062". 
 This naming scheme itself is similiar to the naming scheme of [couchperuser](https://github.com/etrepum/couchperuser) by etrepum.
 
+Basic CORS Support added.
+
 The following is pegli's description of the script.
 
 # User Account and Database Provisioning for CouchDB
@@ -42,7 +44,7 @@ The daemon performs the following steps and returns information about the create
 
 ## Installation
 
-1. `git clone https://github.com/pegli/couchdb-dbperuser-provisioning.git`
+1. `git clone https://github.com/awaigand/couchdb-dbperuser-provisioning.git`
 1. `cd couchdb-peruser-provisioning`
 1. `npm install -g`
 
